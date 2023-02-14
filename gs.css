@@ -1,15 +1,16 @@
 speech{font-family: 'Times New Roman', Times, serif; font-size: medium;  color: black;}
 direction:hover{font-family: Arial, Helvetica, sans-serif; font-size: large; color: black;
     background-color: aqua;}
-div.mary:hover{font-family: 'Courier New', Courier, monospace; font-size:large; color: red; 
-    text-shadow: 2px 2px 5px green; border: 1px solid; padding: auto; box-shadow: 3px 3px;}
-div.ollivant:hover{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: large;color: blue;text-shadow: 2px 2px 5px darkgray; border: 1px solid;
-    padding: 8px; box-shadow: 3px 3px;}
+div.mary{font-family: 'Courier New', Courier, monospace; font-size:large; color: red; }
+div.mary:hover{text-shadow: 2px 3px rgb(19, 0, 128); border-style: inset; padding: auto; background-color:lightgreen;}
+div.ollivant{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: large;color: blue;}
+div.ollivant:hover{text-shadow: 2px 3px rgb(169, 169, 169); border-style: inset;
+  padding: auto; background-color:moccasin;}
 table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 100%;
+        width: 50%;
       }
       
       td {
@@ -36,3 +37,33 @@ table {
       tr:nth-child(even) {
         background-color: aliceblue;
       }
+nav{
+    display: inline-flexbox;
+    padding: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:darkgray;
+}
+
+l {
+  float: left;
+}
+
+l a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+l a:hover {
+  background-color: whitesmoke;
+}
+
+  
