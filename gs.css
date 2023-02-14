@@ -4,3 +4,33 @@ direction:hover{font-family: Arial, Helvetica, sans-serif; font-size: large; col
 div.mary{font-family: 'Courier New', Courier, monospace; font-size:large; color: red;}
 div.ollivant{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: large;
      color: blue;}
+table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td {
+        border: 3px solid darkgrey;
+        text-align: left;
+        padding: 8px;
+        color: darkblue;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+      th {
+        border: 3px solid darkgrey;
+        text-align: left;
+        padding: 8px;
+        color: darkgreen;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      }
+
+      tr:nth-child(even) {
+        background-color: aliceblue;
+      }
