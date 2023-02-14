@@ -2,10 +2,10 @@ speech{font-family: 'Times New Roman', Times, serif; font-size: medium;  color: 
 direction:hover{font-family: Arial, Helvetica, sans-serif; font-size: large; color: black;
     background-color: aqua;}
 div.mary:hover{font-family: 'Courier New', Courier, monospace; font-size:large; color: red; 
-    text-shadow: 2px 2px 5px orange; border: 1px solid; padding: 8px; box-shadow: 3px 3px;}
+    text-shadow: 2px 2px 5px green; border: 1px solid; padding: auto; box-shadow: 3px 3px;}
 div.ollivant:hover{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-size: large;color: blue;text-shadow: 2px 2px 5px darkgray; border: 1px solid;
-    padding: 8px; box-shadow: 3px 3px; }
+    padding: 8px; box-shadow: 3px 3px;}
 table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
